@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  </head>
+  <body>
+    <section id="home" class="header">
+      <nav>
+        <a href="main.html"><div class="logo"><img src="jjk-logo.png"></div></a> <!--fix logo later-->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#student">Students</a></li>
+            <li><a href="#course">Courses</a></li>
+            <li><a href="#product">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i><!--fix menu icon later-->
+      </nav>
+    <div class="text-box">
+        <h1>BEST DEFENCE IS OFFENCE</h1>
+        <P>
+          Most convenient way of ensuring your safety is by 
+          knowing how to attack the enemy.<br>To do this you have to equip yourself with
+          the right skills.
+        </P>
+        <a href="" class="hero-btn">Visit Us to Know More</a>
+    </div>  
+    </section>
+    <!--students-->
+    <section id="student" class="course">
+      <h1>OUR STUDENTS</h1>
+      <P>The students in our school are categorized into:</P>
+
+
+      <div class="row">
+        <div class="course-col">
+          <h3>KIDS</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem rerum delectus enim similique nihil 
+            consequatur animi! Sunt consectetur, vero officiis suscipit quis itaque ab. Rerum pariatur ab dicta inventore.</p>
+        </div>
+        <div class="course-col">
+          <h3>SELF-DEFENCE</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem rerum delectus enim similique nihil 
+            consequatur animi! Sunt consectetur, vero officiis suscipit quis itaque ab. Rerum pariatur ab dicta inventore.</p>
+        </div>
+        <div class="course-col">  
+          <h3>PRO-FIGHTERS</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem rerum delectus enim similique nihil 
+                consequatur animi! Sunt consectetur, vero officiis suscipit quis itaque ab. Rerum pariatur ab dicta inventore.</p>      
+        </div>
+      </div>
+
+    </section>
+
+    <!--courses -->
+    <section id="course" class="course">
+      <h1>Courses we offer</h1>
+      <p>yayasshshknkgdsjigojfdjshjo</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>fitness</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem rerum delectus enim similique nihil 
+            consequatur animi! Sunt consectetur, vero officiis suscipit quis itaque ab. Rerum pariatur ab dicta inventore.</p>
+        </div>
+        <div class="course-col">
+          <h3>self-defence</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem rerum delectus enim similique nihil 
+            consequatur animi! Sunt consectetur, vero officiis suscipit quis itaque ab. Rerum pariatur ab dicta inventore.</p>
+        </div>
+        <div class="course-col">  
+          <h3>Professional</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem rerum delectus enim similique nihil 
+                consequatur animi! Sunt consectetur, vero officiis suscipit quis itaque ab. Rerum pariatur ab dicta inventore.</p>      
+        </div>
+      </div>
+
+    </section>
+    <!--Products-->
+    <section id="product" class="product">
+      <h1>Products for SALE</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam nostrum sequi, perspiciatis, 
+        quae error cumque sint dolor iste qui natus illum labore iure ducimus. Totam itaque commodi dolor veritatis excepturi?</p>
+      
+      <div class="row">
+        <div class="prod-col">
+         <!-- <div class="layer"> #look up later-->
+            <img src="gear-prod.jpg">
+             <div class="layer"><h3>london</h3> </div>
+            
+          </div>
+        <div class="prod-col">
+          <!-- <div class="layer"> #look up later-->
+              <img src="gear3-prod.jpg">
+            <!--  <h3>london</h3> -->
+        </div>
+        <div class="prod-col">
+          <!-- <div class="layer"> #look up later-->
+               <img src="gear2-prod.jpg">
+             <!--  <h3>london</h3> -->
+               
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+    <section id="about" class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quae, voluptatibus ea ullam dolorum<br>
+         dolorem expedita minus distinctio cum perspiciatis quis, totam mollitia natus officiis neque ipsam
+          fuga eaque fugiat.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>made by @NestaWalgwe</p>
+    </section>
+
+    
+    
+
+    <!--JS for toggle menu-->  
+    <script>
+
+      var navLinks = document.getElementById("navLinks")
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+
+    </script>
+    
+  </body>
+</html>
